@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 <link rel="stylesheet" href="rwd.css">
-    <title>網站主題：仲恩的個人網頁</title>
+    <title>Hello, world!</title>
   </head>
   <script src="https://kit.fontawesome.com/7d41b421d5.js" crossorigin="anonymous"></script>
   <body>
@@ -21,7 +21,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item  ">
-              <a class="nav-link" href="index.html">首頁 <span class="sr-only"></span></a>
+              <a class="nav-link" href="index1.html">首頁 <span class="sr-only"></span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="我喜歡的歌.html">我喜歡的歌</a>
@@ -102,8 +102,37 @@
         </div>
       </div>
     </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card h-100">
+        <div class="text-center" style="padding: 10px;">
+          <iframe src="image/index.html" 
+                  width="100%" 
+                  height="300" 
+                  style="border:none; max-width:100%;" 
+                  allowfullscreen></iframe>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Unity 小遊戲</h5>
+          <p class="card-text">用 Unity 製作的小遊戲，可以互動操作！</p>
+          <a class="btn btn-primary" data-toggle="collapse" href="#moreGame" role="button" aria-expanded="false" aria-controls="moreGame">
+            查看更多
+          </a>
+          <div class="collapse mt-3" id="moreGame">
+            <div class="card card-body bg-light text-left">
+              這是一個使用 Unity WebGL 製作的簡易互動小遊戲，將其嵌入網頁中，讓玩家可以直接體驗。
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div> <!-- row 結束 -->
+</div> <!-- container 結束 -->
   </div>
+  
 </div>
+
+
 
 
     <!-- Optional JavaScript; choose one of the two! -->
@@ -118,7 +147,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
     -->
-   <!-- 自訂放大圖片功能 -->
+    <!-- 自訂放大圖片功能 -->
 <script>
     document.querySelectorAll('.card-img-top').forEach(img => {
         img.style.cursor = 'zoom-in';
