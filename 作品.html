@@ -102,29 +102,37 @@
         </div>
       </div>
     </div>
-    <div class="col-md-6 col-lg-4">
-      <div class="card h-100">
-        <div class="text-center" style="padding: 10px;">
-          <iframe src="image/index.html" 
-                  width="100%" 
-                  height="300" 
-                  style="border:none; max-width:100%;" 
-                  allowfullscreen></iframe>
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Unity 小遊戲</h5>
-          <p class="card-text">用 Unity 製作的小遊戲，可以互動操作！</p>
-          <a class="btn btn-primary" data-toggle="collapse" href="#moreGame" role="button" aria-expanded="false" aria-controls="moreGame">
-            查看更多
-          </a>
-          <div class="collapse mt-3" id="moreGame">
-            <div class="card card-body bg-light text-left">
-              這是一個使用 Unity WebGL 製作的簡易互動小遊戲，將其嵌入網頁中，讓玩家可以直接體驗。
-            </div>
-          </div>
+    <!-- 將這段「Unity 小遊戲」卡片搬到「第 2 列開頭」-->
+<!-- 在下方第 4 張卡片的區塊中保留它： -->
+ 
+<div class="col-md-12 col-lg-12 mt-5">
+  <div class="card h-100">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item"
+              src="image/index.html"
+              allowfullscreen
+              style="border: none;">
+      </iframe>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Unity 小遊戲</h5>
+      <p class="card-text">用 Unity 製作的小遊戲，可以互動操作！</p>
+      <a class="btn btn-primary" data-toggle="collapse" href="#moreGame" role="button" aria-expanded="false" aria-controls="moreGame">
+        查看更多
+      </a>
+      <div class="collapse mt-3" id="moreGame">
+        <div class="card card-body bg-light text-left">
+          這是一個使用 Unity WebGL 製作的簡易互動小遊戲，將其嵌入網頁中，讓玩家可以直接體驗。
         </div>
       </div>
     </div>
+  </div>
+</div>
+
+
+     
+    </div>
+    
 
   </div> <!-- row 結束 -->
 </div> <!-- container 結束 -->
